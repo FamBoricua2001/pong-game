@@ -49,7 +49,7 @@ player = {
 	 */
 	update: function() {
 		if (keystate[UpArrow]) this.y -= 10;
-		if (keystate[DownArrow]) this.y += 7;
+		if (keystate[DownArrow]) this.y += 9;
 		// keep the paddle inside of the canvas
 		this.y = Math.max(Math.min(this.y, HEIGHT - this.height), 0);
 	},
